@@ -1,34 +1,33 @@
 <!doctype html>
+
 <html>
+    <head>
+      
+	    <title>Assessment 3</title>
+	    
+    </head>
+    
+    <body>
+      
+      <button onclick="myFunction()">Sign In Here</button>
+      
+      <script>
 
-<head>
-
-<title></title>
-
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-
-<body>
-<p class="Class1">
-
-<a href="https://www.behindthename.com/random/">The</a> quick brown fox jumps over the lazy dog.
-
-</p>
-
-
-<p class="Class2">
-
-<a href="http://littletonpublicschools.net/schools/arapahoe-high-school">The</a> quick brown fox jumps over the lazy dog.
-
-</p>
-
-
-<p id="Id1">
-
-<a href="https://www.behindthename.com/random/">The</a> quick brown fox jumps over the lazy dog.
-
-</p>
-
-</body>
+        function myFunction() {
+    var password = "ilovekarl";
+    var user;
+    while (user!= password) {
+        user = prompt("Password:", "");
+        if (user != password) {
+          alert("Try Again")
+        }
+}
+ alert("You have successfully signed in.")
+    
+}
+        
+      </script>
+      
+    </body>
+    
 </html>
