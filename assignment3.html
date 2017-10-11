@@ -1,0 +1,52 @@
+<html>
+  
+	<head>
+	  
+    	<title>Conditional Statements</title>
+    	
+      <style type="text/css"> 
+      
+      </style>
+
+        
+  </head>
+
+<body>
+
+  <h2>Are you good enough?</h2>
+  <button onclick="myFunction()">Let's See</button>
+  <p id="demo"></p>
+
+      <script>
+
+function myFunction() {
+    var y = Math.floor(Math.random()*5);
+    var txt;
+    var x;
+    var z = 0;
+    while (x!=y) {
+        x = prompt("Guess a number between 0 and 5", "");
+        txt = "Incorrect, try again!";
+        document.getElementById("demo").innerHTML = txt;
+        z = z + 1;
+}
+        if (z>1) {
+        
+          txt = "Correct, it only took you " + z + " tries!" 
+            
+        } else {
+        
+          txt = "Correct, it took you 1 try!"  
+            
+            }
+document.getElementById("demo").innerHTML = txt;
+    
+}
+
+</script>
+      
+      
+
+    </body>
+    
+</html>
