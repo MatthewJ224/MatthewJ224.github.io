@@ -1,42 +1,19 @@
-.Class1{
-
-color:red;
-background-color:black;
-text-align:center;
-border:3px solid blue;
-
-}
-
-.Class2{
-
-text-align:left;
-color:white;
-background-color:black;
-border:3px solid red;
-border-radius:15px;
-
-}
-
-#Id1{
-
-color:#ffcc00;
-
-}
-
-a{
-
-color:blue;
-
-}
-
-a:visited{
-
-color:green;
-
-}
-
-a:hover{
-
-color:orange;
-
-}
+            body {
+                
+                font-family:sans-serif;
+            }
+        
+            #shape {
+                
+                width: 200px;
+                height: 200px;
+                background-color:red;
+                display: none;
+                position: relative;
+                
+            }
+            
+            .bold  {
+                
+                font-weight: bold;
+            }
