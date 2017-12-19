@@ -1,0 +1,81 @@
+<html>
+<head>
+<title> Demo </title>
+    <link href="style8.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="nav-bar">
+            <img src="logo.png" class="logo">
+            
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div class="welcome">
+            <h1> SAVE UP TO 50% AT  |</h1>
+            <h1> QUILLS DURING CHRISTMAS</h1>
+            <hr>
+            <a href="#" class="btn btn1">Shop Now</a>
+            <a href="#" class="btn btn2">Learn About Us</a>
+        
+        </div>
+        
+        <div class="welcome1">
+            <h1> Christmas Starts In...</h1>
+            
+            <p id="demo" style="font-size:30px"></p>
+        </div>
+        
+        <div class="container darken-overlay">
+            <div></div>
+        </div>
+        
+    </header>
+
+    
+    
+    
+    
+<script>
+
+    var countDownDate = new Date("Dec 25, 2017 12:00:00").getTime();
+
+var countdownfunction = setInterval(function() {
+
+    var now = new Date().getTime();
+    
+    var distance = countDownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "It's Christmas";
+    }
+}, 1000);
+    
+</script>
+
+</body>
+
+    
+    </html>
+    
