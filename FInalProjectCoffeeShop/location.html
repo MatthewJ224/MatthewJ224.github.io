@@ -1,0 +1,123 @@
+<html>
+<head>
+<title> Demo </title>
+    <link href="style8.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header class="bgclass">
+        
+        <div class="nav-bar">
+            <img src="logo.png" class="logo">
+            
+        <ul class="menu1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div class="welcome">
+            <h1> FIND US AT OUR LOCATION  |</h1>
+            <hr>
+            <a href="#" class="btn btn1">SHOP NOW</a>
+            <a href="#" class="btn btn2">TAKE ME THERE</a>
+        
+        </div>
+        
+        <div class="welcome1">
+            <h1> CHRISTMAS STARTS IN...</h1>
+            
+            <p id="demo" style="font-size:30px"></p>
+        </div>
+        
+        <div class="container darken-overlay">
+            <div></div>
+        </div>
+        
+    </header>
+
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">LOCATION</h3>
+        <br>
+        <hr>
+        <br style="width: 50%;">
+        <h2 style="text-align:center;">NEAR YOU</h2>
+    <div>
+        <br>
+        <br>
+        
+        <h2 style="text-align: right; margin-right: 250px;"> HOURS</h2>
+        <br>
+        <br>
+        <h2 style="text-align: right; margin-right: 250px;">Monday - Friday: OPEN 10AM - 8PM</h2>
+        <br>
+        <br>
+        <h2 style="text-align: right; margin-right: 250px;">Sunday: CLOSED</h2>
+        
+        
+        
+        <img src="shop_img1.jpg" class="quills1" style="height: 350px;margin-right: 30px;margin-left: 5%;">
+    </div>
+        
+        <hr class="hr2" style="margin-bottom: 50px;">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.5370417072454!2d-74.01134908435327!3d40.70619267933266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a165bedccab%3A0x2cb2ddf003b5ae01!2sWall+St%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1513664595200" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+        
+</div>
+    
+    <div class="bgimg-1 darken-overlay">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">COME AND SEE</span>
+      <br>
+      <br>
+      <hr class="hr1" style="text-align: center;margin: auto; width: 45%">
+      <br>
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WHERE IT'S MADE</span>
+      
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p></p>
+  </div>
+</div>
+
+<script>
+
+    var countDownDate = new Date("Dec 25, 2017 12:00:00").getTime();
+
+var countdownfunction = setInterval(function() {
+
+    var now = new Date().getTime();
+    
+    var distance = countDownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "It's Christmas";
+    }
+}, 1000);
+    
+</script>
+
+</body>
+
+    
+    </html>

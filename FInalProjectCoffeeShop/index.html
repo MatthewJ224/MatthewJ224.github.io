@@ -1,0 +1,149 @@
+<html>
+<head>
+<title> Quill's Coffee </title>
+    <link href="style8.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header class="darken-overlay;">
+        
+        <div class="nav-bar">
+            <img src="logo.png" class="logo">
+            
+        <ul class="menu1">
+            <li><a href="">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div class="welcome">
+            <h1> SAVE UP TO 50% AT  |</h1>
+            <h1> QUILLS DURING CHRISTMAS</h1>
+            <hr>
+            <a href="#" class="btn btn1">Shop Now</a>
+            <a href="#" class="btn btn2">Learn About Us</a>
+        
+        </div>
+        
+        <div class="welcome1">
+            <h1> Christmas Starts In...</h1>
+            
+            <p id="demo" style="font-size:30px"></p>
+        </div>
+        
+        <div class="container darken-overlay">
+            <div></div>
+        </div>
+        
+    </header>
+
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">SHOP OUR GREAT COFFEES</h3>
+        <br>
+        <hr>
+        <br style="width: 50%;">
+        <h2 style="text-align:center;">AT THE PRICES YOU'LL LOVE</h2>
+    <div>
+        <br>
+        <br>
+        <img src="quills1.jpg" class="quills1">
+        <img src="quills2.jpg" class="quills2">
+        <img src="quills3.jpg" class="quills3">
+        <br>
+        <h4> SOUTHERN GOTHIC | FILTER BLEND - 12 OZ</h4>
+        <hr class="hr1">
+        <h5>$14.00</h5>
+        <a href="" class="btn btn3" style="position: absolute; left: 270px; top: 1400px;">ADD TO CART</a>
+        
+        <h4 class="bse">BLACKSMITH EXPRESSO - 12 oz</h4>
+        <hr class="hr1" id="bse1">
+        <h5 class="bse2">$12.00</h5>
+        <a href="" class="btn btn3" style="position: absolute; left: 690px; top: 1400px;">ADD TO CART</a>
+        
+        <h4 class="bset">YULETIDE | HOLIDAY BLEND - 12 oz</h4>
+        <hr class="hr1" id="bset1">
+        <h5 class="bset2">$12.00</h5>
+        <a href="" class="btn btn3" style="position: absolute; left: 1100px; top: 1400px;">ADD TO CART</a>
+    </div>
+</div>
+    
+    <div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MADE WITH LOVE</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p></p>
+  </div>
+</div>
+
+    
+    
+    
+<script>
+
+    var countDownDate = new Date("Dec 25, 2017 12:00:00").getTime();
+
+var countdownfunction = setInterval(function() {
+
+    var now = new Date().getTime();
+    
+    var distance = countDownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "It's Christmas";
+    }
+}, 1000);
+    
+    
+    
+    /*<!-- var scrollY = 0;
+    var distanc = 40;
+    var speed = 24;
+    function autoScrollTo(el) {
+        var currentY = window.pageYOffset;
+        var targetY = document.getElementById(el).offsetTop;
+        var bodyHeight = document.body.offsetHeight;
+        var yPos = currentY + window.innerHeight;
+        var animator = setTimeout('autoScrollTo(\''+el+''\')', speed);
+        if(yPos > bodyHieght) {
+            clearTimeout(animator);
+        } else {
+            if(currentY < targetY-distance){
+                
+                scrollY = currentY+distance;
+                window.scroll(0, scrollY);
+                
+            } else {
+                
+                clearTimeout(animator);
+        }    
+    }
+} -->*/
+    
+        
+</script>
+
+</body>
+
+    
+    </html>
+    

@@ -1,0 +1,394 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-image: url(quills_img.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed
+        
+}
+
+.bgclass {
+    
+    background-image: url(quills_img2.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed
+        
+}
+
+.nav-bar {
+    
+    background: rgba(0, 0, 0, 0.5)
+    height: 80px;
+    
+}
+
+.logo {
+    
+    margin: 5px 15px;
+    height: 100px;
+}
+
+.quills1 {
+    left: 10%;
+    top: 20%;
+    position:relative;
+    margin: 5px 15px;
+    height: 200px;
+     
+}
+
+.quills2 {
+    left: 20%;
+    top: 20%;
+    position:relative;
+    margin: 5px 15px;
+    height: 200px;
+     
+}
+
+.quills3 {
+    left: 30%;
+    top: 20%;
+    position:relative;
+    margin: 5px 15px;
+    height: 200px;
+     
+}
+
+.c_logo {
+    
+    position: absolute;
+    left: 50vh;
+    top: 50%;
+    width: 20%;
+    opacity: 1;
+    
+}
+.menu {
+    
+    float: right;
+    list-style:none;
+    margin: 20px;
+    padding-right: 43vh;
+    opacity: 1;
+
+
+}
+
+.menu li {
+    
+    display: inline-block;
+    margin: 10px 5px;
+    
+}
+
+.menu li a{
+    
+    text-decoration: none;
+    color:  #fff;
+    padding 5px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    
+    color: goldenrod;
+    
+}
+
+.menu1 {
+    
+    float: right;
+    list-style:none;
+    margin: 20px;
+    padding-right: 3vh;
+    opacity: 1;
+}
+
+.menu1 li {
+    
+    display: inline-block;
+    margin: 10px 5px;
+    
+}
+
+.menu1 li a{
+    
+    text-decoration: none;
+    color:  #fff;
+    padding 5px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.menu1 li a:hover {
+    
+    color: goldenrod;
+    
+}
+
+hr {
+    
+    margin: auto;
+    width: 40%;
+    height: 3px;
+    background-color: white;
+    
+}
+
+
+.container {
+    
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    opacity: 1;
+    margin: 15px;
+    top: 160px;
+    
+}
+.welcome {
+    
+    
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    opacity: 1;
+    margin: 15px;
+    top: 160px;
+}
+
+.btn {
+    
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    
+}
+
+.btn1 {
+    
+    background: white;
+    color:#000;
+}
+
+.btn3{
+    margin: auto;
+    color: black;
+    border: 2px solid black;
+        
+}
+
+.btn3:hover{
+    
+    background-color: black;
+    color: white;
+    
+}
+.btn2{
+    color: #fff;
+}
+
+.btn2:hover {
+    
+    background: #fff;
+        color: #000;
+    
+}
+
+.welcome1 {
+    
+    position: absolute;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    top: 90%;
+    left: 140vh;
+}
+
+
+/* Parallax */
+
+.header, .bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+
+    background-image: url("roastery.jpg");
+    min-height: 100%;
+    
+}
+
+.bgimg-2 {
+  background-image: url("img_paralax2.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("img_paralax3.jpg");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+h2 {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font: 15px "Lato", sans-serif;
+  color: #111;
+}
+
+h4 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+    margin-right: 10%;
+    
+}
+
+.bse {
+    
+    position: absolute;
+    left: 550px;
+    top: 1180px;
+    
+}
+
+#bse1 {
+    
+    position: absolute;
+    left: 500px;
+    top: 1288px;
+    
+}
+
+.bse2 {
+    
+    position: absolute;
+    left: 500px;
+    top: 1310px;
+    
+}
+
+
+
+
+
+.bset {
+    
+    position: absolute;
+    left: 950px;
+    top: 1180px;
+    
+}
+
+#bset1 {
+    
+    position: absolute;
+    left: 900px;
+    top: 1288px;
+    
+}
+
+.bset2 {
+    
+    position: absolute;
+    left: 900px;
+    top: 1310px;
+    
+}
+
+
+
+
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 10%;
+    
+}
+
+.hr1 {
+    width: 25%;
+    height: 1px;
+    color: #111;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+    margin-right: 10%;
+    
+}
+
+.hr2 {
+    
+    border-top: 1px solid #111;
+    background-color: #111;
+    height: auto;
+    margin-top: 50px;
+    width: 90%;
+    
+}
+
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+.darken-overlay div {
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
