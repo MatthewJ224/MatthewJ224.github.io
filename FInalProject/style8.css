@@ -123,11 +123,11 @@ hr {
 
 .welcome1 {
     
-    position: relative;
+    position: absolute;
     text-align: right;
     font-family: sans-serif;
     font-size: 20px;
     color: white;
-    top: 49vh;
-    
+    top: 90%;
+    left: 140vh;
 }
